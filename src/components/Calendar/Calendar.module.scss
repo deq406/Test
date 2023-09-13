@@ -1,0 +1,16 @@
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.dayPeriod {
+  text-align: right;
+  flex: 1;
+  font-size: 14px;
+  color: #00000080;
+}
+.text {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+}

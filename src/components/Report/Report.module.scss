@@ -1,0 +1,54 @@
+.coloredBlockSuccess {
+  background-color: #b8e36b;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+.coloredBlockSkiped {
+  background-color: #ea5c5d80;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+
+.coloredBlockCanceled {
+  background-color: #e6e6e6;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  border-radius: 2px;
+  &::after {
+    content: "-";
+    position: relative;
+    bottom: 55%;
+    left: 10%;
+  }
+}
+
+.coloredBlockPlanned {
+  background-color: #e6e6e6;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+
+.reportLesson {
+  p {
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 1px solid #0000001a;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+}
