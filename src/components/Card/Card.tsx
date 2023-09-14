@@ -5,6 +5,7 @@ import { RootState } from "../../redux/store";
 import { Lesson } from "../Lesson/Lesson";
 import { Report } from "../Report/Report";
 import { Details } from "../Details/Details";
+
 import styles from "./Card.module.scss";
 export const Card: React.FC = () => {
   const lessonData = useSelector((state: RootState) => state.lesson.data);

@@ -1,0 +1,41 @@
+.ant-picker-cell.ant-picker-cell.ant-picker-cell-in-view.ant-picker-cell-selected
+  .ant-picker-cell-inner {
+  background-color: #6d39e9;
+  opacity: 1;
+}
+
+.ant-picker-cell.ant-picker-cell-in-view .ant-picker-cell-inner {
+  background-color: #6d39e9;
+  border-radius: 4px;
+  opacity: 0.5;
+  color: white;
+}
+.ant-picker-cell-inner {
+  color: black;
+  background-color: #e6e6e6;
+  width: 32px;
+  height: 32px !important;
+}
+
+.ant-picker-footer {
+  display: none;
+}
+.ant-picker-header {
+  display: none !important;
+}
+.ant-picker-content thead tr th {
+  font-size: 16px;
+}
+
+.ant-picker-input::before {
+  content: url("/src/assets/Vector.svg");
+}
+
+.ant-picker-input input {
+  padding-left: 5px !important;
+}
+.ant-picker-clear {
+  .anticon-close-circle {
+    display: none;
+  }
+}

@@ -1,7 +1,6 @@
 import "./App.scss";
 import { Card } from "./components/Card/Card";
 import { Table } from "./components/Table/Table";
-
 const App: React.FC = () => {
   return (
     <div className="App">
